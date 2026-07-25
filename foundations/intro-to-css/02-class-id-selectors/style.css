@@ -1,1 +1,23 @@
 /* Add CSS Styling */
+
+/* Classes */
+.odd {
+    background-color: #ec8cd8;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+
+}
+
+.larger {
+    font-size: 24px;
+}
+
+/* IDs */
+#second {
+    color: #0000FF;
+    font-size: 36px;
+}
+
+#fourth {
+    background-color: #90ee90;
+    font-weight: bold;
+}
