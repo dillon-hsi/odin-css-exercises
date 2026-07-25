@@ -1,1 +1,11 @@
 /* Add CSS Styling */
+
+.container { /* This could be 'div' or '.container' */
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Should have used more combinators (e.g. div .text, or .container .text) */
+
