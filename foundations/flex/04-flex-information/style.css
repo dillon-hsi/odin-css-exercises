@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,6 +11,26 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+}
+
+.itemList {
+  padding-top: 32px;
+  /* May have been worth using margin-top */
+  display: flex;
+  flex-direction: row;
+  gap: 52px;
+  justify-content: space-evenly;
+  /* Should have set justify-content to center, not space-evenly */
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  flex-grow: 0;
+  flex-basis: 200px;
+  /* Should have used max-width here. */
 }
 
 /* do not edit this footer */
